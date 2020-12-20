@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.userinput{
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+.tagbox{
+    padding:5px;
+    border: 5px solid black;
+    margin-top:10px;
+    background-color: white;
+    
+
+}
+.tag{
+    border:2px solid black;
+    padding:5px;
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.tag:hover{
+    background-color: black;
+    color:white;
+    transition: all 0.3s ease-in-out;
+}
+.close:hover{
+    background-color: red;
+    color:black;
+    padding: 0 10px;
+}
